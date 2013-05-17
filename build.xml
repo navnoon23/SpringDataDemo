@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project []>
+
+<!-- CHANGE THE NAME TO MATCH YOUR PROJECT -->
+<project name="SpringDataDemo" default="start-derby" basedir=".">
+   
+	<target name="start-derby">
+		<exec command="database/db-derby-10.3.1.4-bin/bin/startNetworkServer.bat" os="Windows Vista"/>
+		<exec command="database/db-derby-10.3.1.4-bin/bin/startNetworkServer.bat" os="Windows XP"/>
+        <exec command="database/db-derby-10.3.1.4-bin/bin/startNetworkServer.bat" os="Windows 7"/>
+		<exec command="database/db-derby-10.3.1.4-bin/bin/startNetworkServer" os="Linux"/>
+	</target>
+
+	<target name="stop-derby">
+		<exec command="database/db-derby-10.3.1.4-bin/bin/stopNetworkServer.bat" os="Windows Vista"/>
+		<exec command="database/db-derby-10.3.1.4-bin/bin/stopNetworkServer.bat" os="Windows XP"/>
+        <exec command="database/db-derby-10.3.1.4-bin/bin/stopNetworkServer.bat" os="Windows 7"/>
+		<exec command="database/db-derby-10.3.1.4-bin/bin/stopNetworkServer" os="Linux"/>
+	</target>
+
+</project>

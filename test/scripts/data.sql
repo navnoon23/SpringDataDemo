@@ -1,0 +1,18 @@
+insert into customer(FIRST_NM, LAST_NM, GENDER, BIRTH_DT)
+values ('JOHN', 'DOE', 'M', '1970-06-01');
+insert into customer(FIRST_NM, LAST_NM, GENDER, BIRTH_DT)
+values ('JANE', 'DOE', 'F', '1973-01-01');
+insert into customer(FIRST_NM, LAST_NM, GENDER, BIRTH_DT)
+values ('ADAM', 'SMITH', 'M', '1982-08-01');
+insert into customer(FIRST_NM, LAST_NM, GENDER, BIRTH_DT)
+values ('SARAH', 'SMITH', 'F', '1985-11-01');
+
+INSERT INTO ACCOUNT (CUSTOMER_ID,ACCT_TYPE,ACCT_STAT,CREATED) VALUES (1,'BAS','PEN','2013-05-05');
+
+insert into ORG(ORG_TYPE, ORG_NAME, CREATED) values ('INC', 'GOOGLE INC.', '1998-09-04');
+insert into ORG(ORG_TYPE, ORG_NAME, CREATED) values ('LLC', 'NVISIA LLC.', '1991-01-01');
+insert into ORG(ORG_TYPE, ORG_NAME, CREATED) values ('NGO', 'GOODMAN COMMUNITY CENTER', '1991-01-01');
+insert into ORG(ORG_TYPE, ORG_NAME, CREATED) values ('COP', 'WILLY ST CO-OP', '1974-01-01');
+insert into ORG(ORG_TYPE, GOV_TYPE, ORG_NAME, CREATED) values ('GOV', 'FED', 'FBI', '1908-07-26');
+insert into ORG(ORG_TYPE, GOV_TYPE, ORG_NAME, CREATED) values ('GOV', 'ST', 'EMPLOYEE TRUST FUND', '1943-05-01');
+insert into ORG(ORG_TYPE, GOV_TYPE, ORG_NAME, CREATED) values ('GOV', 'LOC', 'MADISON FIRE DEPARTMENT', '1838-01-01');
